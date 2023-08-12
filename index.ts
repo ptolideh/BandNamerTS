@@ -1,6 +1,4 @@
 import { createInterface } from 'readline';
-let cityName: string;
-let petName: string;
 
 const rl = createInterface({
     input: process.stdin.setEncoding('utf-8'),
